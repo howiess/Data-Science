@@ -1,2 +1,2 @@
 # Data-Science
-A repository containing all Data Science concepts and projects
+A repository containing all Data Science concepts, code, and projects. 
