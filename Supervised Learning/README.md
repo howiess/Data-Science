@@ -5,19 +5,19 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
 ## Table of Contents
 - [Data Exploration and Understanding](#data-exploration-and-understanding)
 - [Data Preprocessing](#data-preprocessing)
-  - [Standardize the Data]
-  - [Plot the Distribution of the Data](#plot-the-distribution-of-the-data)
-  - [Visually Inspect Data Distribution](#visually-inspect-data-distribution)
-  - [Test Statistical Distribution Fit](#test-statistical-distribution-fit)
-  - [Find Distribution Parameters](#find-distribution-parameters)
+  - Standardize the Data
+  - Plot the Distribution of the Data
+  - Visually Inspect Data Distribution
+  - Test Statistical Distribution Fit
+  - Find Distribution Parameters
 - [Feature Engineering](#feature-engineering)
 - [Model Selection and Training](#model-selection-and-training)
-  - [Apply Prediction/Forecasting Techniques](#apply-predictionforecasting-techniques)
+  - Apply Prediction/Forecasting Techniques
 - [Model Evaluation](#model-evaluation)
-  - [Test the Model on Test Data](#test-the-model-on-test-data)
-  - [Cross-Validation](#cross-validation)
-  - [Handling Overfitting](#handling-overfitting)
-  - [Handling Underfitting](#handling-underfitting)
+  - Test the Model on Test Data
+  - Cross-Validation
+  - Handling Overfitting
+  - Handling Underfitting
 - [Model Deployment](#model-deployment)
 - [Additional Tips](#additional-tips)
 
