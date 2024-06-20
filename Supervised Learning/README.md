@@ -20,6 +20,7 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
   - Handling Underfitting
 - [Model Deployment](#model-deployment)
 - [Additional Tips](#additional-tips)
+- [Key Areas To Focus On](#key-areas-to-focus-on)
 
 ## Data Exploration and Understanding
 - **Exploratory Data Analysis (EDA)**: Summarize data characteristics using plots and descriptive statistics.
@@ -102,5 +103,47 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
 - **Model Evaluation**: Compare multiple models using consistent metrics.
 - **Documentation**: Maintain clear documentation of the dataset, model parameters, and evaluation metrics.
 - **Reproducibility**: Ensure code is reproducible by setting random seeds and sharing notebooks or scripts.
+
+## Key Areas To Focus On
+- **Data Exploration and Understanding**
+  - Exploratory Data Analysis (EDA)
+  - Handling missing values
+  - Identifying and handling outliers
+  - Understanding data distributions
+ 
+- **Data Preprocessing**
+  - Standardization and normalization techniques
+  - Feature scaling (Min-Max, Standard, Robust scaling)
+  - Encoding categorical variables (One-hot encoding, Label encoding)
+  - Feature selection and engineering
+
+- **Model Selection**
+  - Types of algorithms (Linear regression, Logistic regression, Decision trees, Random forests, SVM, k-NN, Gradient boosting)
+  - Understanding model assumptions and applicability
+  - Bias-variance trade-off
+  - Choosing appropriate models based on problem type
+ 
+- **Model Training**
+  - Train-test split
+  - Cross-validation (k-fold, leave-one-out, stratified)
+  - Hyperparameter tuning (Grid search, Random search)
+  - Regularization techniques (L1, L2)
+ 
+- **Model Evaluation**
+  - Performance metrics for classification (Accuracy, Precision, Recall, F1-score, ROC-AUC)
+  - Performance metrics for regression (R-squared, Mean Absolute Error, Mean Squared Error, RMSE)
+  - Confusion matrix analysis
+  - Learning curves
+ 
+- **Handling Overfitting and Underfitting**
+  - Regularization techniques
+  - Pruning (for decision trees)
+  - Early stopping
+  - Increasing model complexity or collecting more data
+ 
+- **Model Deployment**
+  - Saving and loading models (joblib, pickle)
+  - Serving models through APIs
+  - Monitoring model performance in production
 
 Feel free to contribute and improve this guide by submitting a pull request.
