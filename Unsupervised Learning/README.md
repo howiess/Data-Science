@@ -21,6 +21,7 @@ This guide provides a detailed, step-by-step approach to creating an unsupervise
 - [Handling Underfitting](#handling-underfitting)
 - [Model Deployment](#model-deployment)
 - [Additional Tips](#additional-tips)
+- [Key Areas To Focus On](#key-areas-to-focus-on)
 
 ## Data Exploration and Understanding
 - **Exploratory Data Analysis (EDA)**: Summarize data characteristics using plots and descriptive statistics.
@@ -102,5 +103,36 @@ This guide provides a detailed, step-by-step approach to creating an unsupervise
 - **Model Evaluation**: Compare multiple models using consistent metrics.
 - **Documentation**: Maintain clear documentation of the dataset, model parameters, and evaluation metrics.
 - **Reproducibility**: Ensure code is reproducible by setting random seeds and sharing notebooks or scripts.
+
+## Key Areas To Focus On
+- **Data Exploration and Understanding**
+  - Exploratory Data Analysis (EDA)
+  - Understanding data distributions
+  - Identifying patterns and trends
+ 
+- **Data Preprocessing**
+  - Standardization and normalization techniques
+  - Feature scaling (Min-Max, Standard, Robust scaling)
+  - Handling missing values
+  - Dimensionality reduction techniques (PCA, t-SNE, UMAP)
+
+- **Model Selection and Training**
+  - Clustering algorithms (K-Means, Hierarchical Clustering, DBSCAN)
+  - Association rule learning (Apriori, Eclat)
+  - Anomaly detection techniques (Isolation Forest, Local Outlier Factor, Autoencoders)
+ 
+- **Model Evaluation**
+  - Evaluating clustering results (Silhouette Score, Davies-Bouldin Index, Inertia)
+  - Evaluating association rules (Support, Confidence, Lift)
+  - Evaluating anomaly detection (Precision-Recall, ROC Curve)
+ 
+- **Handling Overfitting and Underfitting**
+  - Pruning hierarchical clusters
+  - Parameter tuning for clustering algorithms
+  - Regularization in anomaly detection models
+ 
+- **Model Deployment**
+  - Saving and loading models
+  - Serving models through APIs
 
 Feel free to contribute and improve this guide by submitting a pull request.
