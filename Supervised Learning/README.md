@@ -74,7 +74,7 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
 
 ### Embeded Method
 - **Lasso Regression (L1)**: Uses L1 regularization. Shrinks some coefficients to exactly zero, effectively selecting a subset of features while fitting the model. In regression data, this is done simultaneously while fitting the model.
-- **Ridge Regression (L2)**: Uses L2 regularization. Shrinks some coefficients to near zero, reducing the impact of less important features but does not perform strict feature selection like Lasso. In regression data, this is done simultaneously while fitting the model.
+- **Ridge Regression (L2)**: Uses L2 regularization. Shrinks some coefficients to near zero, reducing the impact of less important features but does not perform strict feature selection like Lasso, but rather to reduce multicollinearity. In regression data, this is done simultaneously while fitting the model.
 
 
 ## Model Selection and Training
