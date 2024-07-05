@@ -16,6 +16,7 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
   - Dimensionality reduction (PCA)
   - Handling multicollinearity
 - [Model Selection and Training](#model-selection-and-training)
+  - Feature Selection
   - Apply Prediction/Forecasting Techniques
 - [Model Evaluation](#model-evaluation)
   - Test the Model on Test Data
