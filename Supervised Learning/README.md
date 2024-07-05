@@ -15,8 +15,6 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
   - Polynomial features
   - Dimensionality reduction (PCA)
   - Handling multicollinearity
-- [Feature Selection](#feature-selection)
-  - Wrapper Method
 - [Model Selection and Training](#model-selection-and-training)
   - Apply Prediction/Forecasting Techniques
 - [Model Evaluation](#model-evaluation)
@@ -65,20 +63,13 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
 - **Handling Categorical Variables**: Use one-hot encoding, label encoding, or target encoding.
 - **Feature Selection**: Use methods like recursive feature elimination, importance from tree-based models.
 
-## Feature Selection
-
-### Wrapper Method
-- **Forward Selection**: Starts with no features and adds them one by one, based on which feature improves the model the most. May overlook other model that is better, resulting in finding local minimum rather than global minimum. 
-- **Backward Elimination**: Starts with all features and removes them one by one, based on which feature removal improves the model or degrades performance the least. Extensive computation time. 
-
-### Embeded Method
-- **Lasso Regression (L1)**: Uses L1 regularization. Shrinks some coefficients to exactly zero, effectively selecting a subset of features while fitting the model. In regression data, this is done simultaneously while fitting the model.
-- **Ridge Regression (L2)**: Uses L2 regularization. Shrinks some coefficients to near zero, reducing the impact of less important features but does not perform strict feature selection like Lasso, but rather to reduce multicollinearity. In regression data, this is done simultaneously while fitting the model.
-
 
 ## Model Selection and Training
 
 ### Feature Selection 
+- **Forward Selection**: Starts with no features and adds them one by one, based on which feature improves the model the most. May overlook other model that is better, resulting in finding local minimum rather than global minimum. 
+- **Backward Elimination**: Starts with all features and removes them one by one, based on which feature removal improves the model or degrades performance the least. Extensive computation time.
+- **Other Algorithm Specific Methods**
 
 ### Apply Prediction/Forecasting Techniques
 - **Linear Regression**: Model the linear relationship between dependent and independent variables.
