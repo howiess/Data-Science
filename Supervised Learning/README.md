@@ -17,7 +17,6 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
   - Handling multicollinearity
 - [Feature Selection](#feature-selection)
   - Wrapper Method
-  - Embedded Method
 - [Model Selection and Training](#model-selection-and-training)
   - Apply Prediction/Forecasting Techniques
 - [Model Evaluation](#model-evaluation)
@@ -79,11 +78,12 @@ Welcome to the Supervised Learning repository. This guide provides a detailed, s
 
 ## Model Selection and Training
 
+### Feature Selection 
+
 ### Apply Prediction/Forecasting Techniques
-- **Linear Regression**: Model the relationship between dependent and independent variables.
+- **Linear Regression**: Model the linear relationship between dependent and independent variables.
 - **Decision Trees**: Model decision rules inferred from data features.
 - **Support Vector Machines**: Find the hyperplane that best separates data into classes.
-- **Neural Networks**: Model complex patterns in data using layers of interconnected nodes.
 - **Ensemble Methods**: Use bagging, boosting, and stacking to improve model performance.
 
 ## Model Evaluation
